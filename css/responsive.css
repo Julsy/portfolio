@@ -5,13 +5,6 @@
   flex-wrap: wrap;
 }
 
-.box {
-  width: 100%;
-  min-height: 200px;
-  text-align: center;
-  font-size: 25px;
-}
-
 @media screen and (min-width: 451px) {
   .pr-2, .pr-3 {
     width: 50%;
@@ -32,6 +25,8 @@
   .pr-6 {
     width: 100%;
   }
+
+  .text_desc { font-size: 2vw; }
 
   .text, .box, .quote { font-size: 3vw; }
 
@@ -56,6 +51,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .text_desc { font-size: 20px; }
+
+  .text, .box, .quote { font-size: 35px; }
+
+  .heading { font-size: 65px; }
+
+  .title { font-size: 100px; }
 }
 
 .pr-1 {
