@@ -8,15 +8,17 @@
 .box {
   width: 100%;
   min-height: 200px;
+  text-align: center;
+  font-size: 25px;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 451px) {
   .pr-2, .pr-3 {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 551px) {
   .pr-1, .pr-2 {
     width: 50%;
   }
@@ -29,47 +31,29 @@
     width: 100%;
   }
 
-  .text { font-size: 4vw; }
+  .text, .box, .quote { font-size: 3vw; }
 
-  .heading { font-size: 8vw; }
+  .heading { font-size: 6vw; }
 
-  sm-heading { font-size: 5vw; }
-
-
+  .title { font-size: 8vw; }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 701px) {
   .container {
     width: 700px;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .fa, .p { font-size: 3vw; }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
   .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  /* .text {
-    padding: 10px;
-    font-size: 50px;
-    font-weight: 400;
-  }
-
-  .heading {
-    font-weight: 1200;
-    font-size: 80px;
-    padding-bottom: 40px !important;
-    padding-top: -10px !important;
-  }
-
-  sm-heading {
-    font-weight: 1000;
-    font-size: 65px;
-  } */
 }
 
 .pr-1 {
