@@ -16,6 +16,8 @@
   .pr-2, .pr-3 {
     width: 50%;
   }
+
+  .quote { padding-top: 20vh; }
 }
 
 @media screen and (min-width: 551px) {
@@ -45,7 +47,7 @@
     margin-right: auto;
   }
 
-  .fa, .p { font-size: 3vw; }
+  .fa, .fab, .fas, .p { font-size: 3vw; }
 }
 
 @media screen and (min-width: 1201px) {
