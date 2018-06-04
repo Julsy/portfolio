@@ -42,6 +42,10 @@
     margin-right: auto;
   }
 
+  .box {
+    border: solid white 10px;
+  }
+
   .fa, .fab, .fas, .p { font-size: 3vw; }
 }
 
@@ -71,15 +75,15 @@
 }
 
 .pr-3 {
-  background-color: #0C8542;
+  background-color: #F79420;
 }
 
 .pr-4 {
-  background-color: rgb(179, 210, 52);
+  background-color: rgb(77, 190, 161);
 }
 
 .pr-5 {
-  background-color: rgb(77, 190, 161);
+  background-color: #0C8542;
 }
 
 .pr-6 {
@@ -87,5 +91,5 @@
 }
 
 .pr-7 {
-  background-color: #F79420;
+  background-color:
 }
