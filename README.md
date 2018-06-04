@@ -3,4 +3,4 @@
 
 Project [Rubrick](https://review.udacity.com/#!/rubrics/45/view)
 
-![Screenshoot](portfolio.png "portfolio screenshoot")
+![Screenshoot](portfolio_screenshot.png "portfolio screenshoot")
