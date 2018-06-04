@@ -6,6 +6,10 @@
   min-height: 100vh;
 }
 
+.navbar {
+  padding-top: 10px;
+}
+
 .box {
   font-family: "Raleway", serif;
   position: relative;
@@ -46,6 +50,8 @@
   transition: .5s ease;
   backface-visibility: hidden;
 }
+
+a { text-decoration: underline; }
 
 .middle {
   transition: .5s ease;
@@ -121,10 +127,10 @@ a { padding-right: 10px; }
   padding: 10px 10px 10px 10px;
 }
 
-.fa, .fab, .fas, .p {
+.fa, .fab, .far, .p {
   font-size: 20px;
   padding-right: 5px;
   padding-left: 5px;
 }
 
-.fa, .fab, .fas { color: #9582b0; }
+.fa, .fab, .far { color: #9582b0; }

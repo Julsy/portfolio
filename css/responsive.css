@@ -46,7 +46,7 @@
     border: solid white 10px;
   }
 
-  .fa, .fab, .fas, .p { font-size: 3vw; }
+  .fa, .fab, .far, .p { font-size: 3vw; }
 }
 
 @media screen and (min-width: 1201px) {
@@ -56,13 +56,17 @@
     margin-right: auto;
   }
 
-  .text_desc { font-size: 20px; }
+  .text_desc { font-size: 30px; }
 
   .text, .box, .quote { font-size: 35px; }
 
   .heading { font-size: 65px; }
 
   .title { font-size: 100px; }
+
+  .container-quote { width: 1200px; margin: auto; }
+
+  footer, .navbar { width: 1200px; margin: auto; }
 }
 
 .pr-1 {
@@ -83,7 +87,7 @@
 }
 
 .pr-5 {
-  background-color: #0C8542;
+  background-color: yellowgreen;
 }
 
 .pr-6 {
